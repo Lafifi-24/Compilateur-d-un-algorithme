@@ -1,0 +1,15 @@
+Algorithme exampl
+var l:Reel;
+var a:Entier;
+Procedure proc(a:Entier,b:Reel)
+debut
+l=a*b;		
+afficher("a*b=",a,"*",b,"=",l,"\n");
+fin 
+
+debut
+a=6;
+l=3.5;
+proc(6,3.5); 
+fin
+
